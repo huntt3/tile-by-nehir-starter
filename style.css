@@ -53,14 +53,15 @@ img {
 }
 
 /* Link styles */
-a {
+.link {
   color: #a67c52;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s, font-size 0.2s;
 }
 
-a:hover {
+.link:hover {
   color: #7c4a18;
+  font-size: 1.05rem;
 }
 
 /* Container styles */
