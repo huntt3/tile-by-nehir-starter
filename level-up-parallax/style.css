@@ -41,15 +41,15 @@ body {
 
 /* 🧠 Step 2: Add a background image for each parallax section */
 .hero {
-  /* Example: background-image: url("assets/image1.jpg"); */
+  background-image: url("../assets/image1.jpg");
 }
 
 .quiet {
-  /* Example: background-image: url("assets/image2.jpg"); */
+  background-image: url("../assets/image2.jpg");
 }
 
 .home {
-  /* Example: background-image: url("assets/image3.jpg"); */
+  background-image: url("../assets/image3.jpg");
 }
 
 /* ✨ Optional Styling: Add overlay effect to parallax headings */
