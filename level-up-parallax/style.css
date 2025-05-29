@@ -34,6 +34,9 @@ body {
   color: white;
 
   /* 👀 You’ll add position and layering properties if you use overlays */
+  min-height: 350px;
+  background-repeat: no-repeat;
+  text-shadow: 0 2px 8px rgba(60,40,20,0.4);
 }
 
 /* 🧠 Step 2: Add a background image for each parallax section */
@@ -63,3 +66,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* Example usage: 
+.parallax.hero {
+  background-image: url('../assets/image1.jpg');
+}
+*/
